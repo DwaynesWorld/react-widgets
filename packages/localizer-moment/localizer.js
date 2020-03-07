@@ -1,5 +1,5 @@
 import moment from 'moment';
-import configure from 'react-widgets/lib/configure';
+import configure from 'react-widgets-enhanced/lib/configure';
 
 if (typeof moment !== 'function')
   throw new TypeError('You must provide a valid moment object')
@@ -11,7 +11,7 @@ if (!hasLocaleData)
   throw new TypeError(
     'The Moment localizer depends on the `localeData` api, please provide a moment object v2.2.0 or higher')
 
-function getMoment(culture, value, format){
+function getMoment(culture, value, format) {
   return culture ? moment(value, format, true)[localField](culture) : moment(value, format, true)
 }
 

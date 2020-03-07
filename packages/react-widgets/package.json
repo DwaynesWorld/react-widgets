@@ -1,11 +1,10 @@
 {
-  "name": "react-widgets",
-  "version": "4.4.11",
-  "description": "An à la carte set of polished, extensible, and accessible inputs built for React",
+  "name": "react-widgets-enhanced",
+  "version": "1.0.0-alpha.0",
+  "description": "An à la carte set of polished, extensible, and accessible inputs built for React (Fork)",
   "main": "lib/index.js",
   "author": {
-    "name": "Jason",
-    "email": "monastic.panic@gmail.com"
+    "name": "Kyle"
   },
   "files": [
     "lib",
@@ -48,11 +47,11 @@
     "build": "npm run build:lib && npm run build:dist",
     "prepublishOnly": "npm run build"
   },
-  "homepage": "http://jquense.github.io/react-widgets/docs/",
+  "homepage": "",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jquense/react-widgets"
+    "url": "https://github.com/DwaynesWorld/react-widgets"
   },
   "peerDependencies": {
     "react": ">=0.14.0",

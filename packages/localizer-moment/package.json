@@ -1,6 +1,6 @@
 {
-  "name": "react-widgets-moment",
-  "version": "4.0.27",
+  "name": "react-widgets-enhanced-moment",
+  "version": "1.0.0-alpha.0",
   "description": "A moment.js localizer for react-widgets",
   "main": "index.js",
   "scripts": {
@@ -15,27 +15,27 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jquense/react-widgets.git"
+    "url": "git+https://github.com/DwaynesWorld/react-widgets.git"
   },
   "keywords": [
     "react-widgets"
   ],
-  "author": "Jason Quense",
+  "author": "Kyle",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jquense/react-widgets/issues"
+    "url": "https://github.com/DwaynesWorld/react-widgets/issues"
   },
-  "homepage": "https://github.com/jquense/react-widgets#readme",
+  "homepage": "https://github.com/DwaynesWorld/react-widgets#readme",
   "peerDependencies": {
     "moment": ">=2.2.0",
-    "react-widgets": "^4.2.2"
+    "react-widgets-enhanced": "1.0.0-alpha.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.52",
     "@babel/core": "^7.0.0-beta.52",
     "cross-env": "^5.2.0",
     "moment": "^2.21.0",
-    "react-widgets": "^4.4.11",
+    "react-widgets-enhanced": "1.0.0-alpha.0",
     "rimraf": "^2.6.2"
   }
 }
